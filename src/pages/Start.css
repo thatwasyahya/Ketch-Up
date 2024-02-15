@@ -1,0 +1,55 @@
+.slide {
+    min-width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: transform 0.5s ease;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0c0c0c;
+}
+
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.slider h1 {
+    padding-top: 33%;
+    font-size: 4em;
+    color: #cecece;
+    font-weight: bold;
+}
+
+.slider-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.slider-button:hover {
+    background-color: #0056b3;
+}
+
+
+  
+
+  
+  

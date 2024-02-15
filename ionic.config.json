@@ -1,0 +1,7 @@
+{
+  "name": "ketchup",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

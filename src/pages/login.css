@@ -1,0 +1,108 @@
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../assets/login-background.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px); /* Valeur de flou ajustable selon vos préférences */
+  }
+  .login-avatar-icon{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  
+  .login-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 5dvb rgba(0, 0, 0, 0.1);
+  }
+
+    h1 {
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #38493b;
+        font-weight: bold;
+    }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 17px;
+    width: 300px;
+  }
+  
+  .login-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin-top: 10px;
+  }
+  
+  .login-option {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-social-options {
+    margin-top: 20px;
+  }
+  
+  .login-social-button {
+    display: flex;
+    align-items: center;
+    margin-inline: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .login-social-options{
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  .login-social-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .login-button {
+    background-color: #07be25;
+    color: white;
+    margin-block: 7%;
+    margin-inline: 10px;
+    font-size: larger;
+    font-weight: bold;
+    min-width:100px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: space-between;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
