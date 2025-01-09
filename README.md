@@ -25,37 +25,6 @@ You can install the required libraries using pip:
 pip install PyOpenGL Pillow numpy
 ```
 
-
-Voici un exemple de fichier `README.md` pour votre code de simulation du système solaire en 3D avec OpenGL :
-
-```markdown
-# 3D Solar System Simulation
-
-This is a 3D Solar System simulation using OpenGL, GLUT, and Python. The simulation includes the Sun and its eight planets, each orbiting around the Sun with textures applied to the planets and the Sun. The user can navigate around the solar system using keyboard and mouse controls.
-
-## Features
-
-- Real-time 3D rendering of the solar system with the Sun and eight planets (Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune).
-- The planets orbit the Sun based on their speed and distance from the Sun.
-- User-controlled camera for navigation around the scene.
-- Lighting setup that mimics sunlight with ambient and diffuse light sources.
-- Texture mapping applied to the planets and the Sun.
-
-## Prerequisites
-
-- Python 3.x
-- OpenGL
-- PIL (Python Imaging Library)
-- Numpy
-- PyOpenGL
-- GLUT (FreeGLUT)
-
-You can install the required libraries using pip:
-
-```bash
-pip install PyOpenGL Pillow numpy
-```
-
 ## File Structure
 
 - `solar_system.py`: Main script to run the simulation.
