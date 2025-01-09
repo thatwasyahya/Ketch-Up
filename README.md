@@ -23,6 +23,7 @@ You can install the required libraries using pip:
 
 ```bash
 pip install PyOpenGL Pillow numpy
+```
 
 
 Voici un exemple de fichier `README.md` pour votre code de simulation du système solaire en 3D avec OpenGL :
